@@ -4,7 +4,7 @@
 
 27.11.2020, 9:30 [Mitravel](https://killdexwd.github.io/mitravel/) — Mitravel
 
-09.06.2022, 9:30 [Productly](https://killdexwd.github.io/productly/) — From Udemy
+09.06.2022, 9:30 [Productly](https://killdexwd.github.io/productly/) — Productly
 
 09.06.2022, 9:30 [Uber Layout](https://killdexwd.github.io/uber_layout/) — From Udemy
 productly
