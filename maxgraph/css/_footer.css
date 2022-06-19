@@ -1,0 +1,140 @@
+.footer {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 100px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.footer__column-header {
+  margin-bottom: 30px;
+}
+
+
+.footer__column-icon {
+  width: 18px;
+  height: 18px;
+  display: none;
+  transition: .3s all ease;
+}
+
+.footer__column--form{
+  flex-basis: 368px;
+}
+
+.footer__column--form .footer__title {
+  margin-bottom: 30px;
+}
+
+.footer__title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2.15px;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  padding-bottom: 32px;
+  position: relative;
+  transition: .2s color ease;
+}
+
+.footer__title:after {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent2);
+  bottom: 0;
+  left: 0;
+}
+
+.footer__link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 29px;
+  transition: color .2s ease;
+  color: #959EA6;
+}
+
+.footer__link:hover {
+  color: var(--accent2);
+  transition: color .2s ease;
+}
+
+.subs-form {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+}
+
+.subs-form__field {
+  width: 100%;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #e4e4e4;
+  padding: 30px;
+  outline: none;
+  padding-right: 60px;
+  margin-bottom: 16px;
+  background-image: url(../img/footer/user.svg);
+  background-position: calc(100% - 31px) center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}
+
+.subs-form__field:focus {
+  box-shadow: 0px 0px 0px 1px var(--accent2) inset;
+}
+
+.subs-form__field::placeholder {
+  color: rgba(27,25,22,.5);
+  font-size: 16px;
+  letter-spacing: -0.2px;
+} 
+
+.subs-form__btn {
+  background-color: var(--accent2);
+  transition: background-color .2s ease;
+}
+
+.subs-form__btn:hover {
+  background-color: var(--accent2-hover);
+  transition: background-color .2s ease;
+}
+
+.footer__bottom {
+  border-top: 1px solid #d9d9d9;
+  padding: 32px 0;
+}
+
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy, .footer__links a {
+  font-size: 13px;
+  line-height: 15px;
+  color: #959EA6;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__links a {
+  transition: color .2s ease;
+}
+
+.footer__links a:hover {
+  transition: color .2s ease;
+  color: var(--accent2);
+}
+
+.footer__links-item:not(:last-child) {
+  margin-right: 40px;
+}
