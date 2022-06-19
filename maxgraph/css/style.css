@@ -1,20 +1,20 @@
-@import "_normalize.css";
-@import "_fonts.css";
-@import "_variables.css";
-@import "_vendor.css";
-@import "_global.css";
-@import "_overall.css";
+@import "_normalize";
+@import "_fonts";
+@import "_variables";
+@import "_vendor";
+@import "_global";
+@import "_overall";
 
 /* components imports */
 
-@import "_header.css";
-@import "_first.css";
-@import "_become.css";
-@import "_featured.css";
-@import "_slider.css";
-@import "_news.css";
-@import "_insp.css";
-@import "_footer.css";
-@import "_media.css";
+@import "_header";
+@import "_first";
+@import "_become";
+@import "_featured";
+@import "_slider";
+@import "_news";
+@import "_insp";
+@import "_footer";
+@import "_media";
 
 
