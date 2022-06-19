@@ -6,5 +6,6 @@
 
 09.06.2022, 9:30 [Productly](https://killdexwd.github.io/productly/) — Productly
 
+09.06.2022, 9:30 [Responsive](https://killdexwd.github.io/responsive/) — Responsive and rubber layout
+
 09.06.2022, 9:30 [Uber Layout](https://killdexwd.github.io/uber_layout/) — From Udemy
-productly
