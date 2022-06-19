@@ -8,4 +8,7 @@
 
 09.06.2022, 9:30 [Responsive](https://killdexwd.github.io/responsive/) — Responsive and rubber layout
 
+09.06.2022, 9:30 [Swedish](https://killdexwd.github.io/Swedish/) — Swedish
+
 09.06.2022, 9:30 [Uber Layout](https://killdexwd.github.io/uber_layout/) — From Udemy
+
