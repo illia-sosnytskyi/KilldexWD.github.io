@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+
+	<div class="header__wrapper">
+		<div class="header__body _container">
+
+			<div class="header__top">
+
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="index.html" class="menu__link">Головна</a></li>
+						<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+						<li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="open-menu">
+					Відкрити меню
+				</button>
+
+				<div class="header__interaction">
+
+					<div class="log-in">
+						<span class="_icon-user"></span> 
+						<div class="register"><a href="#">Вхід</a> | <a href="#">Реєстрація</a></div> 
+						<div class="account" style="display: none;"><a href="#">User Name</a></div>			 	  
+					</div>
+
+					<div class="header__functions functions">
+						<span class="total-price">2033 uah</span>
+						<a class="cart _icon-cart" href="cart.html"></a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="header__middle">
+				<div class="header__main">
+					<a href="index.html" class="logo"><img src="img/logo.png" alt="Промінь Lux"></a>
+					<div class="search">
+						<div class="search__item">
+							<button type="button" class="search__btn-open _icon-search"></button>
+							<form class="search__form" action="#">
+								<input class="search__input" type="search" placeholder="Пошук по сайту" absolute="off">
+								<button class="search__btn _icon-search" type="submit"></button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<address class="header__contact">
+					<div class="phone">
+						<span class="_icon-phone"></span>
+						<ul>
+							<li><a href="tel:+380675070871">+38 067 507 0871</a></li>
+							<li><a href="tel:+380680130833">+38 068 0130 833</a></li>
+						</ul>
+					</div>
+					<div class="address">
+						<span class="_icon-loca"></span>
+						<p>Вулиця Келецька 39, Вінниця,<br> Вінницька область, 21000</p>
+					</div>
+				</address>
+			</div>
+
+			<div class="header__categories categories">
+				<ul class="categories__list">
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-lustra"></span>
+							<span class="categories__name">Люстри</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-lamp"></span>
+							<span class="categories__name">Світильники</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-spotlight"></span>
+							<span class="categories__name">Точкові світильники</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-tracklight"></span>
+							<span class="categories__name">Трекові системи</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-bra"></span>
+							<span class="categories__name">Бра і настінні</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-trosher"></span>
+							<span class="categories__name">Трошери</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-desklamp"></span>
+							<span class="categories__name">Настільні лампи</span>
+						</a>
+					</li>
+					<li class="categories__item">
+						<a href="#" class="categories__link">
+							<span class="categories__icon _icon-streetlamp"></span>
+							<span class="categories__name">Вуличні світильники</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			
+			<div class="rectangle">
+				<span class="open-category">Відкрити категорії</span>
+				<button type="button" class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+
+		</div>
+
+	</div>
+
+
+</header>
+
+			<main class="page _container catalog__wrapper">
+				<aside class="filter">
+	<div class="filter__header">
+		<h3 class="filter__title">Фільтр</h3>
+		<img class="filter__close" src="img/icons/cancel.svg" alt="">
+	</div>
+
+	<div class="filter__attributes">
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Категорії <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_1">
+					<label class="checkbox__label" for="checkbox_1">Люстри</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_2">
+					<label class="checkbox__label" for="checkbox_2">Cвітильники</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_3">
+					<label class="checkbox__label" for="checkbox_3">Точкові світильники</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_4">
+					<label class="checkbox__label" for="checkbox_4">Трекові системи</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_5">
+					<label class="checkbox__label" for="checkbox_5">Бра і настінні</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_6">
+					<label class="checkbox__label" for="checkbox_6">Трошери</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_7">
+					<label class="checkbox__label" for="checkbox_7">Настільні лампи</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_8">
+					<label class="checkbox__label" for="checkbox_8">Вуличні світильники </label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter filter-price">
+			<h4 class="block-filter__title">Ціна <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants filter-price__slider">
+				<div class="filter-price__inputs">
+					<label class="filter-price__label">
+						<span class="filter-price__text">Від</span>
+						<input type="number" min="500" max="9999" placeholder="500" class="filter-price__input" id="input-0">
+					</label>
+					<label class="filter-price__label">
+						<span class="filter-price__text">До</span>
+						<input type="number" min="500" max="9999" placeholder="9999" class="filter-price__input" id="input-1">
+					</label>
+				</div>
+				<div class="range-slider" id="range-slider"></div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Країни виробники <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_9">
+					<label class="checkbox__label" for="checkbox_9">Австрія</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_10">
+					<label class="checkbox__label" for="checkbox_10">Німеччина</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_11">
+					<label class="checkbox__label" for="checkbox_11">Італія</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_12">
+					<label class="checkbox__label" for="checkbox_12">Китай</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_13">
+					<label class="checkbox__label" for="checkbox_13">Польща</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_14">
+					<label class="checkbox__label" for="checkbox_14">Україна</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_15">
+					<label class="checkbox__label" for="checkbox_15">Чехія</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_16">
+					<label class="checkbox__label" for="checkbox_16">Данія</label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Стилі <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_17">
+					<label class="checkbox__label" for="checkbox_17">Арт-деко</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_18">
+					<label class="checkbox__label" for="checkbox_18">Східний</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_19">
+					<label class="checkbox__label" for="checkbox_19">Кантрі</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_20">
+					<label class="checkbox__label" for="checkbox_20">Класика</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_21">
+					<label class="checkbox__label" for="checkbox_21">Лофт</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_22">
+					<label class="checkbox__label" for="checkbox_22">Модерн</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_23">
+					<label class="checkbox__label" for="checkbox_23">Прованс</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_24">
+					<label class="checkbox__label" for="checkbox_24">Скандинавський</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_26">
+					<label class="checkbox__label" for="checkbox_26">Тіфані</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_25">
+					<label class="checkbox__label" for="checkbox_25">Флористика</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_26">
+					<label class="checkbox__label" for="checkbox_26">Хай-тек</label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Кількість ламп <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_27">
+					<label class="checkbox__label" for="checkbox_27">1</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_28">
+					<label class="checkbox__label" for="checkbox_28">2</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_29">
+					<label class="checkbox__label" for="checkbox_29">3</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_30">
+					<label class="checkbox__label" for="checkbox_30">4</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_31">
+					<label class="checkbox__label" for="checkbox_31">5</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_32">
+					<label class="checkbox__label" for="checkbox_32">6</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_33">
+					<label class="checkbox__label" for="checkbox_33">Від 7 до 10</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_34">
+					<label class="checkbox__label" for="checkbox_34">11 і більше</label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Відстань від стелі <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_35">
+					<label class="checkbox__label" for="checkbox_35">До 30см</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_36">
+					<label class="checkbox__label" for="checkbox_36">Від 30 до 60 см</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_37">
+					<label class="checkbox__label" for="checkbox_37">Більше 60 см</label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Ширина (діаметр) <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_38">
+					<label class="checkbox__label" for="checkbox_38">До 40см</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_39">
+					<label class="checkbox__label" for="checkbox_39">Від 40 до 60 см</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_40">
+					<label class="checkbox__label" for="checkbox_40">Від 60 до 90 см</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_41">
+					<label class="checkbox__label" for="checkbox_41">Більше 90 см</label>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="filter__block block-filter">
+			<h4 class="block-filter__title">Ступінь захисту <img class="drop-down" src="img/icons/arrow-down.svg" alt=""></h4>
+	
+			<div class="block-filter__variants">
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox"  id="checkbox_42">
+					<label class="checkbox__label" for="checkbox_42">IP20</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_43">
+					<label class="checkbox__label" for="checkbox_43">IP21-IP43</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox_44">
+					<label class="checkbox__label" for="checkbox_44">IP44-IP55</label>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+</aside>
+				<div class="catalog">
+	<div class="catalog__header">
+		<h2 class="catalog__title">Люстри</h2>
+		<div class="catalog__select">
+			<label for="select">Сортування за:</label>
+			<select class="select" id="select">
+				<option value="expensive">від дорогих до дишевих</option>
+				<option value="cheap">від дешевих до дорогих</option>
+				<option value="rating">рейтингом</option>
+			</select>
+		</div>
+		<button type="button" class="catalog__open-filter">Відкрити фільтр <img src="img/icons/filter.svg" alt=""></button>
+	</div>
+	<ul class="catalog__list">
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card not-available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/2.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span>BLITZ</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main btn-product">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card not-available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/2.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span>BLITZ</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main btn-product">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card not-available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/2.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span>BLITZ</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main btn-product">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card not-available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/2.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span>BLITZ</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main btn-product">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+		<li class="catalog__item">
+			<a href="single-product.html" class="product-card available">
+	<div class="product-card__header">
+		<div class="product-card__availability">Є в наявності</div>
+		<div class="product-card__not-availability">Немає в наявності</div>
+		<div class="product-card__code">Артикул: <span>0000</span></div>
+	</div>
+	<div class="product-card__img">
+		<img src="img/products/1.jpg" alt="product">
+	</div>
+	<div class="product-card__name"> <span class="product-card__category">Люстра</span> WUNDERLIGHT</div>
+	<div class="product-card__hidden">
+		<div class="product-card__price"><span class="old-price">2499</span><span class="new-price">1799</span></div>
+		<button class="btn btn-main">Додати до корзини</button>
+		<div class="product-card__soon">Скоро з’явиться у продажі</div>
+	</div>
+</a>
+		</li>
+	</ul>
+	<ul class="pagination">
+		<li class="pagination__page active">1</li>
+		<li class="pagination__page">2</li>
+		<li class="pagination__page">3</li>
+		<li class="pagination__dots">...</li>
+		<li class="pagination__page">13</li>
+	</ul>
+</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__body">
+
+			<div class="footer__column" data-spollers="992,max">
+				<button class="footer__title" type="button" data-spoller>Інтернет магазин <span class="icon-arrow-down"></span></button>
+				<ul class="footer__nav">
+					<li><a href="catalog.html">Католог</a></li>
+					<li><a href="contacts.html">Контакти</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__column" data-spollers="992,max">
+				<button class="footer__title" type="button" data-spoller>Каталог <span class="icon-arrow-down"></span></button>
+				<ul class="footer__nav">
+					<li><a href="#">Люстри</a></li>
+					<li><a href="#">Світильники</a></li>
+					<li><a href="#">Точкові світильники</a></li>
+					<li><a href="#">Трекові системи</a></li>
+					<li><a href="#">Бра і настінні </a></li>
+					<li><a href="#">Трошери</a></li>
+					<li><a href="#">Настільні лампи</a></li>
+					<li><a href="#">Вуличні світильники</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__column" data-spollers="992,max">
+				<button class="footer__title" type="button" data-spoller>Контактна інформація <span class="icon-arrow-down"></span></button>
+				<address class="footer__contacts">
+					<div class="footer__phone">
+						<a href="tel:+380675070871">+38 067 507 0871</a> <a href="tel:+380680130833">+38 068 0130 833</a>
+					</div>
+					<div class="call-center">
+						<h5>Режим роботи Call-центру:</h5>
+						<p>пн-пт: з 9.00 до 19.00.</p>
+						<p>сб: з 9.00 до 17.00.</p>
+					</div>
+					<div class="store">
+						<h5>Магазин у м. Вінниця</h5>
+						<p>Вулиця Келецька 39</p>
+					</div>
+					<div class="mail">
+						<h5>Електронна пошта</h5>
+						<a href="mailto:Prominlux71@gmail.com">Prominlux71@gmail.com</a>
+					</div>
+				</address>
+			</div> 
+
+			<div class="footer__callback">
+				<div class="footer__form">
+					<h4 class="footer__title">Замовити зворотній зв’язок</h4>
+					<form action="#">
+						<input class="footer__input" type="text" placeholder="Ваше ім’я">
+						<input class="footer__input" type="text" placeholder="Ваш телефон">
+						<button class="btn" type="submit">Надіслати</button>
+					</form>
+				</div>
+				<div class="footer__social">
+					<h4 class="footer__title">Ми в соціальних мережах</h4>
+					<a href="#"><img src="img/svg/insta.svg" alt="instagram"></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+		</div>
+		<div id="popup" class="popup popup_popup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<button data-close href="" class="popup__close"><img src="img/icons/cancel.svg" alt=""></button>
+			<h4 class="footer__title popup__title">Замовити зворотній зв’язок</h4>
+					<form action="#" class="popup__form">
+						<input class="footer__input popup__input" type="text" placeholder="Ваше ім’я">
+						<input class="footer__input popup__input" type="text" placeholder="Ваш телефон">
+						<button class="btn" type="submit">Надіслати</button>
+					</form>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
