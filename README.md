@@ -16,4 +16,4 @@
 
 02.07/2022, 11:40 [Portfolio(lesson)](https://killdexwd.github.io/Portfolio(lesson)/) — From Udemy
 
-02.07/2022, 11:40 [Portfolio(lesson)](https://killdexwd.github.io/ProminLux-main/) — ProminLux-main
+02.07/2022, 11:40 [ProminLux](https://killdexwd.github.io/ProminLux-main/) — ProminLux
