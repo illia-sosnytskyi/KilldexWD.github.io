@@ -4,12 +4,14 @@
 
 27.11.2020, 9:30 [Mitravel](https://killdexwd.github.io/mitravel/) — Mitravel
 
-09.06.2022, 9:30 [Productly](https://killdexwd.github.io/productly/) — Productly
+12.08.2021, 14:20 [Productly](https://killdexwd.github.io/productly/) — Productly
 
-09.06.2022, 9:30 [Responsive](https://killdexwd.github.io/responsive/) — Responsive and rubber layout
+11.09.2020, 9:30 [Responsive](https://killdexwd.github.io/responsive/) — Responsive and rubber layout
 
-09.06.2022, 9:30 [Swedish](https://killdexwd.github.io/Swedish/) — Swedish
+15.04.2020, 9:30 [Swedish](https://killdexwd.github.io/Swedish/) — Swedish
 
 09.06.2022, 9:30 [WevDev-site](https://killdexwd.github.io/WevDev-site/) — WevDev-site
 
 09.06.2022, 9:30 [Uber Layout](https://killdexwd.github.io/uber_layout/) — From Udemy
+
+02.07/2022, 11:40 [Portfolio(lesson)](https://killdexwd.github.io/Portfolio(lesson)/) — From Udemy
