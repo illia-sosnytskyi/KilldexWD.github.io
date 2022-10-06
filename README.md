@@ -16,4 +16,4 @@
 
 02.07/2022, 11:40 [Portfolio(lesson)](https:/illia-sosnytskyi.github.io/Portfolio(lesson)/) — From Udemy
 
-02.07/2022, 11:40 [ProminLux](https://KilldexWD.github.io/ProminLux-main/) — ProminLux
+02.07/2022, 11:40 [ProminLux](https://illia-sosnytskyi/KilldexWD.github.io/ProminLux-main/) — ProminLux
